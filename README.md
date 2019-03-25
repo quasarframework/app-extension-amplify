@@ -14,3 +14,9 @@ IN DEVELOPMENT, DO NOT USE IN PRODUCTION.
 ```
 $ quasar ext add @quasar/amplify
 ```
+
+#### Official Amplify Docs
+https://aws-amplify.github.io/docs/js/vue
+
+#### VSCode Plugin 
+https://marketplace.visualstudio.com/items?itemName=aws-amplify.aws-amplify-vscode

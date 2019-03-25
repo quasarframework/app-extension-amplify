@@ -42,15 +42,11 @@ module.exports = function () {
       type: 'checkbox',
       required: true,
       message:
-        'feathers.js installation options:',
+        'AWS Amplify installation options:',
       choices: [
         {
-          name: 'Create Server',
-          value: 'server'
-        },
-        {
-          name: 'Install Frontend',
-          value: 'frontend'
+          name: 'Run amplify-cli',
+          value: 'cli'
         }
       ]
     }

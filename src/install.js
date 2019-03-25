@@ -10,8 +10,4 @@
 module.exports = function (api) {
 	console.log('NOT READY FOR USE')
 	api.render('./templates/base')
-	/* istanbul ignore if */
-	if (api.prompts.options === 'server') {
-		api.render('./templates/server')
-	}
 }

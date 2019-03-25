@@ -4,9 +4,9 @@
   "description": "A Quasar CLI Extension",
   "author": "Daniel Thompson-Yvetot <35242872+nothingismagick@users.noreply.github.com>",
   "homepage": "http://quasar-framework.org",
-  "repository": "https://github.com/quasarframework/quasar-app-extension-feathersjs",
+  "repository": "https://github.com/quasarframework/app-extension-amplify",
   "bugs": {
-    "url": "https://github.com/quasarframework/quasar-app-extension-feathersjs/issues"
+    "url": "https://github.com/quasarframework/app-extension-amplify/issues"
   },
   "main": "src/index.js",
   "license": "MIT",
@@ -23,6 +23,8 @@
     "precommit": "yarn test && node node_modules/.bin/snyk test --severity-threshold=medium && node node_modules/.bin/jest-badges-readme --coverageDir=./coverage && git add 'README.md' && node_modules/.bin/lint-staged"
   },
   "dependencies": {
+    "aws-amplify": "^1.1.22",
+    "aws-amplify-vue": "^0.2.7"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
